@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ion-icon{
+    color: white;
+}
+ion-icon:hover{
+    color: #1ed760;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+nav .left img{
+    width: 145px;
+    height: 40px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 22px 20px;
+}
+.dash{
+    background-color: white;
+    width: 2px;
+    height: 20px;
+    margin: auto 17px;
+}
+nav ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    /* padding: 12px 20px; */
+    font-size: 1.2rem;
+}
+nav ul li a:hover{
+    color: #1ed760;
+}
+
+.home{
+    width: 100vw;
+    height: 65vh;
+    padding: 0 250px;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    z-index: -1;
+
+}
+.mob{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    width: 40%;
+    padding: 0 40px;
+    padding-right: 65px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50px 50px 0 0;
+}
+.notch{
+    height: 4px;
+    width: 50px;
+    margin: 15px;
+    margin-top: 26px;
+    margin-left: 126px;
+    background-color: black;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+.phone img{
+    width: 279px;
+    height: 459px;
+    padding-top: 9px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.txt-btn{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.txt{
+    position: relative;
+    top: 187px;
+    color: white;
+    font-size: 2.1em;
+}
+.get-btn{
+    margin-top: 220px;
+}
+.get-btn, .get-btn2{
+    display: flex;
+    align-items: center;
+    padding: 23px;
+    height: 70px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.spotifyFree{
+    border-radius: 23px;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+
+}
+.spotifyFree:hover{
+    font-size: 1rem;
+}
+/****************************** why-spotify *************************************/
+.why{
+    background-color: white;
+    padding: -1px;
+    margin-top: -6px;
+    margin-bottom: 74px;
+    z-index: 1;
+    position: relative;
+}
+.why-img{
+    display: flex;
+    justify-content: center;
+}
+.why-spotify{
+    margin-top: 32px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 38px;
+}
+.play{
+    /* border: 2px solid red; */
+    width: 15%;
+    margin: 22px;
+}
+.why-1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.why-1 img{
+    display: flex;
+    justify-content: center;
+}
+.why-1-txt h2{
+    text-align: center;
+    margin-top: 37px;
+}
+.center{
+    text-align: center;
+    line-height: 20px;
+}
+.why-1-txt :nth-child(2){
+    margin-top: 12px;
+}
+/******************************************* free ***********************************8*/
+.free{
+    /* border: 2px solid red; */
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+.free-txt{
+    margin: 200px; 
+}
+
+.free-txt h2{
+    color: white;
+    text-align: center;
+    font-size: 47px;
+}
+
+/**************************************** Questions ***********************************/
+.q-text{
+    margin: 68px;
+}
+.q-text h2{
+    color: black;
+    text-align: center;
+    font-size: 38px;
+}
+.q1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 219px 5px 210px;
+    flex-direction: column;
+    /* border-bottom: 1px solid #f0f0f0; */
+}
+.q1-content{
+    line-height: 45px;
+}
+.green{
+    color: #117a37;
+}
+ion-icon{
+    width: 25px;
+    height: 40px;
+}
+.inner-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+    height: 70px;
+}
+.inner-flex:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.inner-flex h3:hover{
+    border-bottom: 2px solid black;
+}
+ol li{
+    list-style-position: inside;
+}
+.answer{
+    margin-top: -25px;
+}
+#answer3 :nth-child(2){
+    margin-top: 19px;
+    margin-bottom: 33px;
+}
+#answer4{
+    height: 40px;
+}
+
+/************************************************* Ready *****************************************/
+.ready{
+    /* height: 452px; */
+    background: url(https://www.scdn.co/i/free/lets-play.svg) center center / 100% no-repeat, linear-gradient(-155deg, rgb(108, 14, 224) 55%, rgb(240, 55, 166) 115%) rgb(108, 14, 224);
+    margin-top: 27px;
+}
+.ready2{
+    margin: 77px;
+    padding-bottom: 50px;
+}
+.ready2 h1{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+    font-size: 76px;
+}
+.lets-play{
+    border: 3px solid black;
+    margin: 55px;
+}
+.get-btn2{
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+}
+
+/******************************************** Footer ***************************************/
+.ftr{
+    background-color: black;
+}
+.main{
+    display: flex;
+    margin-top: 74px;
+    justify-content: space-evenly;
+}
+.ftr img{
+    width: 145px;
+    height: 40px;
+    cursor: pointer;
+}
+.separate{
+    display: flex;
+}
+.logos{
+    display: flex;
+}
+.ftr-logo, .company, .communities, .useful-links, .logos{
+    padding: 35px;
+}
+.fixed{
+    color: #919496;
+}
+.gap{
+    margin-top: 19px;
+}
+.gap a:hover{
+    color: #1ed760;
+}
+.icon{
+    height: 45px;
+    width: 45px;
+    padding: 2px;
+    /* border-radius: 100%; */
+    margin-right: 12px;
+    /* border-radius: 70px; */
+    background-color: #222326;
+    border-radius: 50%;
+    text-align: center;
+}
+.final{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.last{
+    margin-top: 50px;
+    margin-left: -183px;
+}
+.last ul{
+    display: flex;
+}
+.last ul li{
+    padding: 18px;
+    font-size: 13px;
+}
+.last ul li a{
+    color: #919496;
+}
+.last ul li a:hover{
+    color: #1ed760;
+}
+.last ul li:nth-child(1){
+    margin-left: 179px;
+}
+.copyright{
+    color: #919496;
+    font-size: 13px;
+}
+.ind ion-icon{
+    color: #919496;
+    position: relative;
+    top: 2px;
+    height: 13px;
+}
+.ind:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+.ab{
+    margin-top: 10px;
+}
+/* color: #919496;
+width: 176px;
+background-color: yellow;
+text-align: center; */

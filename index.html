@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="left">
+            <img src="nav-logo.png" alt="logo">
+        </div>
+        <ul>
+            <li><a href="#">Premium</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Download</a></li>
+            <div class="dash"></div>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+    <div class="home">
+        <div class="mob">
+            <div class="box">
+                <div class="notch"></div>
+                <div class="phone">
+                    <img src="phone.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="txt-btn">
+            <div class="txt">
+                <h1>Play millions of songs and podcasts, for free.</h1>
+            </div>
+            <div class="get-btn">
+                <button class="spotifyFree">
+                    GET SPOTIFY FREE
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="why">
+        <div class="why-spotify">
+            Why Spotify?
+        </div>
+        <div class="why-img">
+            <div class="play">
+                <div class="why-1">
+                    <img src="why-4.png" alt="">
+                </div>
+                <div class="why-1-txt">
+                    <h2>Play your favorites.</h2>
+                    <p class="center">Listen to the songs you love, and</p>
+                    <p class="center">discover new music and</p>
+                    <p class="center"> podcasts.</p>
+
+                </div>
+            </div>
+            <div class="play">
+                <div class="why-1">
+                    <img src="why-3.png" alt="">
+                </div>
+                <div class="why-1-txt">
+                    <h2>Playlists made easy.</h2>
+                    <p class="center">We'll help you make playlists.</p>
+                    <p class="center">Or enjoy playlists made by music</p>
+                    <p class="center"> experts.</p>
+                </div>
+            </div>
+            <div class="play">
+                <div class="why-1">
+                    <img src="why-2.png" alt="">
+                </div>
+                <div class="why-1-txt">
+                    <h2>Make it yours.</h2>
+                    <p class="center">Tell us what you like, and we'll</p>
+                    <p class="center">recommend music for you.</p>
+
+                </div>
+            </div>
+            <div class="play">
+                <div class="why-1">
+                    <img src="why-1.png" alt="">
+                </div>
+                <div class="why-1-txt">
+                    <h2>Save mobile data.</h2>
+                    <p class="center">To use less data when you play</p>
+                    <p class="center"> music, turn on Data Saver in</p>
+                    <p class="center"> Settings.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="free">
+        <div class="free-txt">
+            <h2>It's free.</h2>
+            <h2>No credit card required.</h2>
+        </div>
+    </div>
+
+    <div class="questions">
+        <div class="q-text">
+            <h2> Got questions?</h2>
+        </div>
+        <div class="q1" onclick="dropdown()">
+            <div class="inner-flex">
+                <h3>How do I create a playlist?</h3>
+                <ion-icon name="chevron-down-outline" class="ptr"></ion-icon>
+            </div>
+            <div class="answer" id="answer">
+                <p class="q1-content">Playlists are a great way to save collections of music, either for your own
+                    listening or to share.</p>
+                <p class="q1-content">To create one:</p>
+                <ol>
+                    <li>Tap Your Library.</li>
+                    <li>Tap <span class="green">CREATE.</span></li>
+                    <li>Give your playlist a name.</li>
+                    <li>Start adding songs (and we'll help you along).</li>
+                </ol>
+            </div>
+        </div>
+        <div class="q1" onclick="dropdown2()">
+            <div class="inner-flex">
+                <h3>How do I activate Data Saver mode?</h3>
+                <ion-icon name="chevron-down-outline" class="ptr"></ion-icon>
+            </div>
+            <div class="answer" id="answer2">
+                <ol>
+                    <li>Tap <span class="green">Home.</span></li>
+                    <li>Tap <span class="green">Settings.</span></li>
+                    <li>Tap <span class="green">Data Saver.</span></li>
+                    <li>Switch on Data Saver.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="q1" onclick="dropdown3()">
+            <div class="inner-flex">
+                <h3>Is it only possible to shuffle play music?</h3>
+                <ion-icon name="chevron-down-outline" class="ptr"></ion-icon>
+            </div>
+            <div class="answer" id="answer3">
+                <p>Any playlist with the shuffle icon will play on shuffle.</p>
+                <p>Some playlists won't have the shuffle icon, so you can tap any song to play it.</p>
+            </div>
+        </div>
+        <div class="q1" onclick="dropdown4()">
+            <div class="inner-flex">
+                <h3>Where can I find Podcasts?</h3>
+                <ion-icon name="chevron-down-outline" class="ptr"></ion-icon>
+            </div>
+            <div class="answer" id="answer4">
+                Tap <span class="green">Search.</span> Under <span class="green">Browse All</span> , tap Podcasts.
+            </div>
+        </div>
+    </div>
+
+    <div class="free ready">
+        <div class="ready2">
+            <h1>Ready? Let’s play.</h1>
+            <div class="get-btn2">
+                <button class="spotifyFree">
+                    GET SPOTIFY FREE
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="ftr">
+        <div class="main">
+            <div class="separate">
+                <div class="ftr-logo">
+                    <img src="nav-logo.png" alt="spotify">
+                </div>
+                <div class="company">
+                    <ul>
+                        <li class="gap fixed">COMPANY</li>
+                        <li class="gap"><a href="">About</a></li>
+                        <li class="gap"><a href="">Jobs</a></li>
+                        <li class="gap"><a href="">For the Record</a></li>
+                    </ul>
+                </div>
+                <div class="communities">
+                    <ul>
+                        <li class="gap fixed">COMMUNITIES</li>
+                        <li class="gap"><a href="">For Artists</a></li>
+                        <li class="gap"><a href="">Developers</a></li>
+                        <li class="gap"><a href="">Advertising</a></li>
+                        <li class="gap"><a href="">Investors</a></li>
+                        <li class="gap"><a href="">Vendors</a></li>
+                    </ul>
+                </div>
+                <div class="useful-links">
+                    <ul>
+                        <li class="gap fixed">USEFUL LINKS</li>
+                        <li class="gap"><a href="">Support</a></li>
+                        <li class="gap"><a href="">Web Player</a></li>
+                        <li class="gap"><a href="">Free Mobile App</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="logos">
+                <div class="logo1 icon">
+                    <a href="https://www.instagram.com/spotify/" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </div>
+                <div class="logo2 icon">
+                    <a href="https://twitter.com/spotify" target="_blank">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </div>
+                <div class="logo3 icon">
+                    <a href="https://www.facebook.com/Spotify" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="final">
+            <div class="last">
+                <ul>
+                    <li><a href="https://www.spotify.com/in-en/legal/end-user-agreement/">Legal</a></li>
+                    <li><a href="https://www.spotify.com/in-en/privacy">Privacy Center</a></li>
+                    <li><a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Polocy</a></li>
+                    <li><a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></li>
+                    <li><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About ads</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <span class="ind"><ion-icon name="earth-outline"></ion-icon>India(English)</span>
+                <div class="ab">&copy 2022 Spotify AB</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
